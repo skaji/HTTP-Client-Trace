@@ -1,0 +1,52 @@
+{
+   "abstract" : "trace HTTP clients",
+   "author" : [
+      "Shoichi Kaji <skaji@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 6.030, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "HTTP-Client-Trace",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.034"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "v5.10.1"
+         }
+      }
+   },
+   "provides" : {
+      "HTTP::Client::Trace" : {
+         "file" : "lib/HTTP/Client/Trace.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/skaji/HTTP-Client-Trace/issues"
+      },
+      "homepage" : "https://github.com/skaji/HTTP-Client-Trace",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/skaji/HTTP-Client-Trace.git",
+         "web" : "https://github.com/skaji/HTTP-Client-Trace"
+      }
+   },
+   "version" : "0.001",
+   "x_generated_by_perl" : "v5.36.0",
+   "x_serialization_backend" : "Cpanel::JSON::XS version 4.36",
+   "x_spdx_expression" : "Artistic-1.0-Perl OR GPL-1.0-or-later",
+   "x_static_install" : 1
+}
+
